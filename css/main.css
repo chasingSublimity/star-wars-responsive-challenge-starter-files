@@ -8,22 +8,42 @@ header {
 	background-color: #efc034;
 }
 
+header h1 {
+	margin-bottom: 0px;
+}
+
+header p {
+	margin-top: 8px;
+}
+
 main .row {
-  margin-bottom: 20px;
+  
 }
 
 .card {
-    margin-bottom: 20px;
+
     border: 1px solid #E5E5E5;
+    margin-top: 30px;
 
 }
 
 .card-img {
-	text-align: center;
-  	padding-top: 30px;
   	width: 100%;
 }
 
 .card-descrip {
+	text-align: left;
+	padding: 20px;
+	
+}
 
+.card-descrip h3 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+
+.card-descrip p {
+	margin-top: 8px;
+	margin-bottom: 8px;
 }
